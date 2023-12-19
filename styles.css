@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ListaShop{
+    min-width: 1100% !important;
+}
+.ListaNav{
+    min-width: 550% !important;
+}
+    .dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+    }
+    .dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+    }
+    .dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    }
+.navbar-brand{
+    display: block;
+    width: 10%;
+}
+.Logo{
+    width: 100%;
+}
+.ImagenNav{
+    width: 100%;
+}
+
+.BloqueTextoCarrusel{
+    padding-top: 10%;
+    padding-left: 7%;
+    padding-right: 25%;
+}
+
+.TextoCarrusel{
+    width: 270%;
+}
+
+.TituloCarrusel{
+    font-size: 2.9rem;
+}
+.BloqueDebajoCarrusel{
+    position:relative;
+   bottom: 180px;
+   width: 60%;
+}
+.TrendingProducts{
+    position: relative;
+    bottom: 90px;
+}
+@media (max-width:991px){
+    .ListaShop {
+        min-width: 50% !important;
+    }
+    .ListaNav{
+        min-width: 1% !important;
+    }
+    .ImagenNav,.Logo{
+        width: auto;
+    }
+    .BloqueTextoCarrusel{
+        width: 100%;
+        padding: 0;
+    }
+    .BloqueDebajoCarrusel{
+        position: static;
+        width: 100%;
+    }
+    .BloqueImagenCarrusel{
+        background-size: contain;
+    }
+    .TrendingProducts{
+        position: static;
+    }
+    .TextoCarrusel{
+        text-align: center;
+        width: auto;
+    }
+
+}
+
