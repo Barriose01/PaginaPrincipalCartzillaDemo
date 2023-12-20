@@ -55,6 +55,45 @@
     position: relative;
     bottom: 90px;
 }
+.NombreProductoLink{
+    color: black;
+    transition: color 0.5s;
+}
+
+.NombreProductoLink:hover{
+    color: red !important;
+}
+.PrecioAnterior{
+    font-size: small;
+}
+.CajasProductos:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.BloqueTextoAnuncio{
+    background-color: #f6f9fc;
+    flex-basis: 53%;
+}
+.BloqueTextoImagenHoodie{
+    width: 100%;
+}
+
+
+@media(min-width:768px){
+    .BloqueTextoImagenHoodie{
+        width: 80%;
+    }
+    .ImagenHoodieHombre{
+        margin-top: 60%
+    }
+    
+}
+
+@media (min-width:991px){
+    .ImagenHoodieHombre{
+        margin-top: 0
+    }
+}
+
 @media (max-width:991px){
     .ListaShop {
         min-width: 50% !important;
