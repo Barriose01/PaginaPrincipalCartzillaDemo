@@ -76,6 +76,28 @@
 .BloqueTextoImagenHoodie{
     width: 100%;
 }
+.LinksPrimerFooter a,.InfoEmail,.InfoSegundoFooter,.LinksSegundoFooter a{
+    color: #b6b9bf;
+}
+.LinksPrimerFooter{
+    margin-bottom: 1%;
+}
+
+.LinksSegundoFooter{
+    margin-right: 3%;
+}
+.LinksPrimerFooter :hover,.LinksSegundoFooter :hover{
+    color: white;
+
+}
+.InfoEmail,.InfoSegundoFooter{
+    font-size: small;
+}
+.Apps{
+    cursor: pointer;
+}
+
+
 
 
 @media(min-width:768px){
