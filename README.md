@@ -1,4 +1,4 @@
-![image](https://github.com/Barriose01/PaginaPrincipalCartzillaDemo/assets/107152796/f781b595-ba06-4f09-950b-8aa16ec81f81)# PaginaPrincipalCartzillaDemo
+
 Pagina principal de Cartzilla (Uno de los demos de Bootstrap). Solo se uso HTML y CSS con Bootstrap
 
 ![image](https://github.com/Barriose01/PaginaPrincipalCartzillaDemo/assets/107152796/5d7dda30-3db2-459e-98c0-d3b879f12482)
